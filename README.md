@@ -6,6 +6,7 @@ Unity NavMesh导出到LayaAir里，供LayaAir使用
 -
 在原版李志的开源项目上修改，在这里感谢原作者李志。  
 原版开源项目地址：[李志Laya NavMesh](https://matrix3d.github.io/h5/2019/03/14/layaair-navmesh%E5%AF%BB%E8%B7%AF)  
+
 1.原版的转换工具python文件有几处代码过时，进行了修改  
 2.原版的库文件直接在LayaAir2.X中引用与LayaAir的原生引用的库文件 laya.d3.js等冲突，提取了原项目的读取NavMesh数据所用的patrolaya.js、underscore-min.js库文件，
 提取了NavMeshAgent有关代码。  
