@@ -17,7 +17,7 @@ Unity NavMesh导出到LayaAir里，供LayaAir使用
 2.将NavMeshExport.cs脚本放到Unity项目中，点击状态栏的NavMesh->Export，然后会在工程目录生成一个ExportNavMesh文件夹，里面的文件就是导出的NavMesh模型  
 3.这时候需要将导出的obj文件利用转换工具转换成json格式的文件，让Laya读取  
 4.转换工具是python文件，需要安装python，python环境下载地址：https://www.python.org/downloads/  
-5.在转换工具所在位置按住shift键右键 在此处打开powershell窗口 ，输入python 转换工具名字.py -i xx.obj -o xx.js 回车。详细请看转换工具代码。  
+5.在转换工具所在位置按住shift键右键 在此处打开powershell窗口 ，输入python 转换工具名字.py -i xx.obj -o xx.js 回车。详细请看转换工具代码。   
 6.项目使用的脚本，src文件夹下NavMesh文件夹；bin文件夹下meshs文件夹放navmesh转换后的json文件；bin文件夹下放patrolaya.js、underscore-min.js库文件；修改
 index.html，增加<script src="underscore-min.js"></script>  <script src="patrollaya.js"></script>；  
 7.NavTest脚本需要挂载到scene上。
